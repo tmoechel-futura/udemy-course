@@ -7,8 +7,4 @@ function App() {
   return <h2> Hello React </h2>;
 }
 
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+root.render(<App />);
