@@ -1,19 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+import App from "./App";
 
-function App() {
-  return (
-    <div>
-      <textarea autoFocus={true} style={{ backgroundColor: "azure" }} />
-      <textarea
-        readOnly={true}
-        maxLength= {3}
-        spellCheck={true}
-        style= {{ backgroundColor:"gray"}}      />
-    </div>
-  );
-}
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(<App />);
