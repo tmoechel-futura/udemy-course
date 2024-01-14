@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap");
 
 .card {
-  @apply mt-4 bg-white rounded-lg overflow-hidden shadow-md relative;
+  @apply bg-white rounded-lg overflow-hidden shadow-md;
 }
 
 .badge {
@@ -16,8 +16,13 @@
   @apply font-bold mt-12 pb-2 border-b border-gray-300;
 }
 
-.btn {
-  @apply rounded-full px-3 mx-1 py-2 uppercase text-xs font-body cursor-pointer tracking-wider;
+.button {
+  @apply rounded-full uppercase text-xs font-body cursor-pointer 
+    tracking-wider bg-slate-400 hover:bg-slate-600 text-white font-bold py-2 px-4 rounded-md shadow-lg;
+}
+
+.input {
+  @apply bg-gray-50 border border-gray-100 text-gray-900 block
 }
 
 body {
