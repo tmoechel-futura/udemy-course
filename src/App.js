@@ -2,13 +2,14 @@ import { useState } from "react";
 
 function App() {
   return (
-    <div className="">
-      <div className="bg-blue-400">Header</div>
-      <div className="flex flex-col md:flex-row">
-        <div className="bg-green-400 flex-none min-w-48">Sidebar</div>
-        <div className="bg-red-400 flex-grow">Main Content</div>
-      </div>
-      <div className="bg-blue-400">Footer</div>
+    <div class="grid lg:grid-rows-4 gap-4">
+      <div className="bg-slate-300 rounded-lg p-6">01</div>
+      <div className="bg-slate-300 rounded-lg p-6 ">02</div>
+      <div className="bg-slate-300 rounded-lg p-6 col-span-2">03</div>
+      <div className="bg-slate-300 rounded-lg p-6">04</div>
+      <div className="bg-slate-300 rounded-lg p-6">05</div>
+      <div className="bg-slate-300 rounded-lg p-6">06</div>
+      <div className="bg-slate-300 rounded-lg p-6">07</div>
     </div>
   );
 }
