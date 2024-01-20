@@ -1,0 +1,16 @@
+{
+  "books": [
+    {
+      "id": "a234",
+      "title": "The Green Mile"
+    },
+    {
+      "id": "79c9",
+      "title": "The new Horizon"
+    },
+    {
+      "id": "afde",
+      "title": "Ski Adventures"
+    }
+  ]
+}
