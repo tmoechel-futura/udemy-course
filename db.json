@@ -1,16 +1,3 @@
 {
-  "books": [
-    {
-      "id": "dfe6",
-      "title": "The Green Mile"
-    },
-    {
-      "id": "666b",
-      "title": "Title 1"
-    },
-    {
-      "id": "7733",
-      "title": "The Green Mile"
-    }
-  ]
+  "books": []
 }
