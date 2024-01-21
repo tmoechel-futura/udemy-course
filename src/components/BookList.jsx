@@ -1,19 +1,18 @@
 import BookShow from "./BookShow";
+import { useBookContext } from "../hooks/useBooksContext";
 
-function BookList({ books, onDelete, onTitleChange }) {
+function BookList() {
+  const { books } = useBookContext();
+
   const BookList = books.map((book) => {
     return (
       <div key={book.id}>
-        <BookShow
-          book={book}
-          onDelete={onDelete}
-          onTitleChange={onTitleChange}
-        />
+        <BookShow book={book} />
       </div>
     );
   });
 
-  return <div className="flex space-x-4">{BookList}</div>;
+  return <div className="flex gap-3 flex-wrap">{BookList}</div>;
 }
 
 export default BookList;
